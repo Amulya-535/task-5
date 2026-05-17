@@ -1,39 +1,39 @@
-Employee_Name = input("Enter Employee Name: ")  # using string datatype           
-Employee_ID = int(input("Enter Employee ID: ")) # using integer datatype            
-Company_Name = input("Enter Company Name: ")    # using string datatype            
-Department = input("Enter Department: ")    # using string datatype                
-Designation = input("Enter Designation: ")   # using string datatype               
-Monthly_Salary = float(input("Enter Monthly Salary: "))     # using float datatype
-Years_Of_Experience = float(input("Enter Years of Experience: "))   # using float datatype
-Work_Location = input("Enter Work Location: ")  # using string datatype     
-Status_Input = input("Is Employee Active? (True/False): ") # using string datatype     
-Employee_Active_Status = Status_Input == "True" # using string datatype     
-Yearly_Salary = Monthly_Salary * 12 # converting string to boolean
+employee_name = input("Enter Employee Name: ")  # using string datatype           
+employee_id = int(input("Enter Employee ID: ")) # using integer datatype            
+company_name = input("Enter Company Name: ")    # using string datatype            
+department = input("Enter Department: ")    # using string datatype                
+designation = input("Enter Designation: ")   # using string datatype               
+monthly_salary = float(input("Enter Monthly Salary: "))     # using float datatype
+years_of_experience = float(input("Enter Years of Experience: "))   # using float datatype
+work_location = input("Enter Work Location: ")  # using string datatype     
+status_input = input("Is Employee Active? (True/False): ") # using string datatype     
+employee_active_status = status_input == "True" # using string datatype     
+yearly_salary = monthly_salary * 12 # converting string to boolean
 # now displaying employee details card
 print("\n")
 print("=========== EMPLOYEE DETAILS CARD ==================")
 print("\n")
-print(f"Employee Name          : {Employee_Name}")
-print(f"Employee ID            : {Employee_ID}")
-print(f"Company Name           : {Company_Name}")
-print(f"Department             : {Department}")
-print(f"Designation            : {Designation}")
-print(f"Monthly Salary         : ₹{Monthly_Salary}")
-print(f"Yearly Salary          : ₹{Yearly_Salary}")
-print(f"Years of Experience    : {Years_Of_Experience}")
-print(f"Work Location          : {Work_Location}")
-print(f"Employee Active Status : {Employee_Active_Status}")
+print(f"Employee Name          : {employee_name}")
+print(f"Employee ID            : {employee_id}")
+print(f"Company Name           : {company_nameompany_Name}")
+print(f"Department             : {department}")
+print(f"Designation            : {designation}")
+print(f"Monthly Salary         : ₹{monthly_salary}")
+print(f"Yearly Salary          : ₹{yearly_salary}")
+print(f"Years of Experience    : {years_of_experience}")
+print(f"Work Location          : {work_location}")
+print(f"Employee Active Status : {employee_active_status}")
 # now displaying data types 
 print("\n")
 print("========== DATA TYPES ==========")
 print("\n")
-print("employee_name          :", type(Employee_Name))
-print("employee_id            :", type(Employee_ID))
-print("company_name           :", type(Company_Name))
-print("department             :", type(Department))
-print("designation            :", type(Designation))
-print("monthly_salary         :", type(Monthly_Salary))
-print("yearly_salary          :", type(Yearly_Salary))
-print("years_of_experience    :", type(Years_Of_Experience))
-print("work_location          :", type(Work_Location))
-print("employee_active_status :", type(Employee_Active_Status))
+print("employee_name          :", type(employee_name))
+print("employee_id            :", type(employee_id))
+print("company_name           :", type(company_name))
+print("department             :", type(department))
+print("designation            :", type(designation))
+print("monthly_salary         :", type(monthly_salary))
+print("yearly_salary          :", type(yearly_salary))
+print("years_of_experience    :", type(years_of_experience))
+print("work_location          :", type(work_location))
+print("employee_active_status :", type(employee_active_status))
